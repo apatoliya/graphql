@@ -4,7 +4,8 @@
   "description": "graphql-tutorial",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "server": "nodemon server.js "
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,11 @@
   "homepage": "https://github.com/apatoliya/graphql-demo#readme",
   "dependencies": {
     "axios": "^0.19.0",
+    "express": "^4.17.1",
     "express-graphql": "^0.8.0",
     "graphql": "^14.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
   }
 }
